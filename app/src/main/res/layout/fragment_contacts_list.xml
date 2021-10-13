@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ContactsListFragment"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/contact1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/contact_item_stroke"
+        android:gravity="start|center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/gorilla"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/contact2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/crocodile"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="start|center_vertical"
+        android:textAlignment="gravity"
+        android:background="@drawable/contact_item_stroke"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/contact3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/elephant"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="start|center_vertical"
+        android:textAlignment="gravity"
+        android:background="@drawable/contact_item_stroke"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/contact4TextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="start|center_vertical"
+        android:textAlignment="gravity"
+        android:text="@string/leopard"
+        android:background="@drawable/contact_item_stroke"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndersenHW5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gorilla">Gorilla</string>
+    <string name="crocodile">Crocodile</string>
+    <string name="elephant">Elephant</string>
+    <string name="leopard">Leopard</string>
+    <string name="surname_">Surname:</string>
+    <string name="name_">Name:</string>
+    <string name="phone_">Phone:</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone">Phone</string>
+    <string name="save_changes">Save Changes</string>
+</resources>
